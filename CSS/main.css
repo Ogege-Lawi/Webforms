@@ -1,0 +1,22 @@
+body{
+    background-color: violet;
+}
+.sub{
+    background-color: deepskyblue;
+    font-size: large;
+    border-radius: 10em;
+
+    border: 5px solid deepskyblue;
+}
+.comma{
+    background-color: royalblue;
+}
+img {
+    border-top-left-radius: 500em;
+    border-bottom-left-radius: 500em;
+    border-top-right-radius: 500em;
+    border-bottom-right-radius: 500em;
+
+
+
+}

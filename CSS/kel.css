@@ -1,0 +1,26 @@
+body{
+background-color: royalblue;
+
+}
+  h1{
+    font-family: sans-serif;
+    color: black;
+  }
+.save{
+  float: left;
+  width: 33.33%;
+  padding: 1em;
+}
+.take::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.take{
+  width: 33.33%;
+padding: 1em;
+}
+.wess{
+  padding: 1em;
+  width: 50%;
+}

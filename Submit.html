@@ -1,0 +1,41 @@
+<html>
+<head>
+ <title>SUBMIT FORM</title>
+ <style type="text/css">
+ fieldset#intro{
+ background-color: royalblue;
+ border-color: black;
+ border-width: thick;}
+ </style>
+ </head>
+ <body bgcolor="#C0C0C0">
+ <small>
+ <h1>FORM</>
+ <p><b><i> <small>Fill in the following form and submit</small></b></i></p>
+ <form action="http://www.example.com/login.php">
+ <fieldset>
+  <legend> Your Details</legend>
+   <label>Name: <input type="text" name="name" /></label><br>
+   <label>Email: <input type="text" name"email" /></label>
+   </fieldset>
+   <br>
+   <fieldset id="intro">
+   <legend>Your Review</legend>
+   <p>How did you hear about us?</p>
+   <select name="device">
+   <option value="google"> Google </option>
+   <option value="opera"> Opera</option>
+   <option value="mozila"> Mozile</option>
+   <option value="chrome"> Chrome</option> </select><br>
+   <p>Would you visit again?<br>
+   <input type="radio" name="option" value="yes" checked="checked" /> Yes
+   <input type="radio" name="option" value="no" /> No
+   <input type="radio" name="option" value="maybe" /> Maybe</p>
+   <p>Comment:</p> <textarea name="comment" col="30" row="40"></textarea><br>
+      <input type="checkbox" name="checkbox" value="checkbox" checked="checked" />Sign me up Email updates.<br><br>
+       <input type="submit" value="submit review" />
+	   </fieldset>
+   </small>
+  </form>
+ </body>
+ </html>
